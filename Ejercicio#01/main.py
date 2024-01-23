@@ -27,6 +27,38 @@ SEGUNDOS_HORA=3600
 
 x = input("Ingresa algo:")
 
+#Variables con tipos de dato
+
+#Numericos
+integer_x=33
+float_x=3.1223
+Complex_value_x=3+4
+
+#Cadenas de texto
+
+s1="Hola "
+s2="mundo 1"
+
+print(s1+s2)
+
+#Booleanos 
+
+truev = True
+falsev = False
+print(type(truev))
+print("True y False->", truev and falsev)
+
+#Diccionarios
+
+usuario = {
+    
+    "Nombre":"Mauricio",
+    "Edad":"18 años",
+    "Escuela":"TESJI"
+}
+
+print(usuario.get("Nombre"))
+
 #Hola mundo
 
-print("Hola mundo")
+print("Hola mundo 2")
