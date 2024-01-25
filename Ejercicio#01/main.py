@@ -48,17 +48,6 @@ falsev = False
 print(type(truev))
 print("True y False->", truev and falsev)
 
-#Diccionarios
-
-usuario = {
-    
-    "Nombre":"Mauricio",
-    "Edad":"18 años",
-    "Escuela":"TESJI"
-}
-
-print(usuario.get("Nombre"))
-
 #Hola mundo
 
-print("Hola mundo 2")
+print("Hola python")

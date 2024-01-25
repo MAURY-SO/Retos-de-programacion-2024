@@ -16,6 +16,54 @@
 
 """
 
-#Operadores aritmeticos
+#Operadores aritmeticos----------------------------------
 
-x=1
+x=34+6
+
+print(x)
+
+x=12-3
+
+print(x)
+
+x=45/3
+
+print(x)
+
+x=3*5
+
+print(x)
+
+x=16%3
+
+print(x)
+
+x=3**2
+
+print(x)
+
+x=16//5
+
+print(x)
+
+#Aritmeticos unitarios
+
+x=2
+
+x*=4
+x/=2
+x+=2
+x-=1
+
+#Operadores logicos--------------------------------------
+
+x=True
+
+a=False
+
+print(x and a)
+print(x or a)
+print(not a)
+
+
+
