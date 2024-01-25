@@ -1,4 +1,4 @@
-
+import os
 
 contactos = []
 
@@ -15,6 +15,11 @@ while True:
         for cont in contactos:
             if cont.get("Nombre")== name:
                 contactos.remove(cont)
+                
+    def actualizar(name):
+        for cont in contactos:
+            if cont.get("Nombre")==name:
+                print(cont.get("Nombre"))
 
     print("Que desea hacer \n 1)Agregar \n 2)Borrar \n 3)Actualizar \n 4)Ver contactos")
     option = int(input(": "))
@@ -30,13 +35,20 @@ while True:
         name = input("Ingresa el nombre del usuario que deseas borrar: ")
         borrar(name)
     
+    elif option==3:
+        print("Hello")
+    
     elif option==4:
         print("------------------CONTACTOS-----------------")
         for cont in contactos:
             print(cont)
-
+    else:
+        print("Opcion invalida")
 
     menu = int(input("Desea hacer otra operacion?(1/0): "))
     
     if menu==0:
+        os.system("clear")
         break
+    else:
+        os.system("clear")
